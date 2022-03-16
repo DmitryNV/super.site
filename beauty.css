@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:wght@100&family=Shizuru&display=swap');
+body {
+    background: rgba(62, 122, 201, 0.78);
+    font-size:16px;
+    font-weight:bold;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Shizuru', cursive;
+}
+
+#photo {
+    width: 30%;
+    border-radius:50px;
+    /*box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);*/
+    box-shadow: 1px -9px 18px 19px rgb(0 0 0 / 25%);
+}
+/* знак '#' используется для применения стилей айдишника*/
+/*
+    файл css
+    #myElement {
+     color: red
+    }
+
+    файл html
+    <div id="myElement">
+        Бла бла бла
+    </div>
+
+    В этом диве текст будет красным
+*/
+.Dimitro section{
+    color: black;
+    margin:0;
+    font-style:normal;
+    font-weight: normal;
+    text-decoration: underline #a12626;
+    text-transform:none;
+    letter-spacing:2px;
+    word-spacing: 5px;
+}
+.categories {
+    background: rgba(0, 255, 255, 0.45);
+    font-size: 25px;
+    font-family: Bahnschrift, serif;
+    color: azure;
+}
+.categories ul {
+    color: #393939;
+    background-color:cornsilk;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 30px
+}
+
+.content {
+    width:70%;
+    font-family: 'League Gothic', sans-serif;
+    color: #1e3cff;
+    background:lightskyblue;
+    font-size: 20px;
+}
+.between-lists{
+    background-color: #684343;
+}
+
+h1 {
+    color: rgba(21, 109, 220, 0.65);
+    letter-spacing:1px;
+}
+nav,.bue {
+    color:#1e3cff;
+}
