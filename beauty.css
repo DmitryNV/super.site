@@ -6,10 +6,11 @@ body {
     font-weight:bold;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Shizuru', cursive;
+    margin: 0px;
 }
 
 #photo {
-    width: 30%;
+    width: 350px;
     border-radius:50px;
     /*box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);*/
     box-shadow: 1px -9px 18px 19px rgb(0 0 0 / 25%);
@@ -28,7 +29,7 @@ body {
 
     В этом диве текст будет красным
 */
-.Dimitro section{
+.Dimitro section h1{
     color: black;
     margin:0;
     font-style:normal;
@@ -70,4 +71,25 @@ h1 {
 }
 nav,.bue {
     color:#1e3cff;
+}
+.nav {
+    display: flex;
+    justify-content:space-around;
+    font-family: "Candara";
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.nav section {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+.cap {
+    background-color: #47bbbb;
 }
