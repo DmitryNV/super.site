@@ -25,26 +25,36 @@
       .hidden {
         display: none;
       }
-      .flex-between {
+      .flex-center {
           display: flex;
           justify-content: center;
+          align-items: center;
       }
-      .flex-between a {
-          margin-left: 10px;
-          margin-right: 10px
+      .p-10 {
+          padding: 10px;
+      }
+
+      .logo {
+          width: 100px;
+          border: solid white 2px;
+          border-radius: 10px;
+      }
+      header {
+          display: flex;
+          justify-content: space-between;
       }
     </style>
 </head>
 <body>
   <header class="bg-gray-900">
-    <div class="flex-between">
-<!--      <img src="" alt=""/>-->
+    <div class="flex-center p-10">
+      <img src="images/logo.png?v=1" class="logo" alt=""/>
       <a href="" class="text-white block">Pricing</a>
       <a href="" class="text-white block">Courses</a>
       <a href="" class="text-white block">Blog</a>
       <a href="" class="text-white block">Forum</a>
     </div>
-    <div>
+    <div class="flex-center">
       <a href="" class="text-white">Login</a>
       <button>Sign Up</button>
     </div>
