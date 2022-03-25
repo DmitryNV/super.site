@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f633bb1c-2c98-49ec-a815-f6c813044bd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photocars/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photocars/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photocars/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photocars/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photocars/logo-mockup-on-grey-wall_35913-2122.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beauty.css" beforeDir="false" afterPath="$PROJECT_DIR$/beauty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3f0253c544d86f7a481a00d1e3b52dd3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/wolf.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beauty.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructionsgit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instractions/instructionsgit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photocars/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photocars/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photocars/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photocars/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photocars/logo-mockup-on-grey-wall_35913-2122.webp" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo-mockup-on-grey-wall_35913-2122.webp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="valery-branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +41,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26nTBAcmxXkr0n2qa22OCoqUk2r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,8 +53,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\super.site\instractions" />
+      <recent name="C:\OpenServer\domains\super.site\images" />
+      <recent name="C:\OpenServer\domains\super.site\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,5 +78,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
