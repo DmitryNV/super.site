@@ -1,13 +1,13 @@
 .navigation {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     font-family: "Candara";
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-bottom: 10px;
     align-items: center;
+    width: 50%;
 }
 .navigation section {
     background-color: #ffffff;
@@ -28,9 +28,12 @@
 .authorization {
     font-family: "Times New Roman";
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     font-size: 20px;
+    width: 20%;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .authorization section{

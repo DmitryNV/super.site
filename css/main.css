@@ -16,7 +16,6 @@ body {
     font-family: Bahnschrift, serif;
     color: azure;
     padding: 5px;
-    width: 700px;
 }
 
 .categories ul {
@@ -31,6 +30,15 @@ body {
     font-family: 'League Gothic', sans-serif;
     color: #1e3cff;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.products{
+    background-color: cornsilk;
+    display: flex;
+
+}
+.maingoods{
     display: flex;
     justify-content: center;
 }
