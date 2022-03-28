@@ -7,24 +7,29 @@ body {
     font-weight: bold;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Shizuru', cursive;
-    margin: 0px;
+    margin: 0;
+
 }
 
 .categories {
     font-size: 25px;
     font-family: Bahnschrift, serif;
-    padding: 5px;
+    /*padding: 20px;*/
+    background-color: #771eaa;
+    border-radius: 70px;
+    text-align: center;
+    color: white;
+    /*width: 100%*/
+    margin: 50px 10px;
+    padding: 20px;
 }
 
 .categories ul {
     display: flex;
     justify-content: space-around;
-    background-color: #771eaa;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 70px;
-    padding: 50px;
     color: white;
+    margin: 0;
+    margin-top: 20px;
 }
 
 .content {
@@ -32,16 +37,4 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: center;
-}
-
-.products {
-    background-color: cornsilk;
-    display: flex;
-
-}
-
-.maingoods {
-    display: flex;
-    justify-content: center;
-    color: white;
 }
