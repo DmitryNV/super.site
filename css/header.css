@@ -1,13 +1,25 @@
+.header {
+    background-color: #771eaa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color:inherit;
+    text-decoration: none;
+}
+
 .navigation {
     display: flex;
     /*justify-content: space-evenly;*/
-    font-family: "Candara";
+    /*font-family: "Candara";*/
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
     align-items: center;
     /*width: 700px;*/
+
 }
 
 .navigation section {
@@ -28,14 +40,8 @@
 overflow: hidden;
 }
 
-.header {
-    background-color: #771eaa;
-    display: flex;
-    justify-content: space-between;
-}
-
 .authorization {
-    font-family: "Times New Roman";
+    /*font-family: "Times New Roman";*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,7 +58,7 @@ overflow: hidden;
     padding-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    border: solid black;
+    /*border: solid black;*/
 }
 
 
