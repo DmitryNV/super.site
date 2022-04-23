@@ -15,82 +15,127 @@
 <body>
 <header class="header">
     <div class="navigation">
-            <img class=logo src="images/Eagle-logo.png" alt="" >
-            <section class="p-right-left">
-               <a href="#">
-                   Main
-               </a>
-            </section>
-            <section class="p-right-left">
-                <a href="#">
+        <img class=logo src="images/Eagle-logo.png" alt="">
+        <section class="p-right-left">
+            <a href="#">
+                Main
+            </a>
+        </section>
+        <section class="p-right-left">
+            <a href="#">
                 Products
-                </a>
-            </section>
-            <section class="p-right-left">
-                <a href="#">
+            </a>
+        </section>
+        <section class="p-right-left">
+            <a href="#">
                 Orders
-                </a>
-            </section>
-            <section class="p-right-left">
-                <a href="#">
-               Cart
-                </a>
-            </section>
-            <section class="p-right-left">
-                <a href="#">
+            </a>
+        </section>
+        <section class="p-right-left">
+            <a href="#">
+                Cart
+            </a>
+        </section>
+        <section class="p-right-left">
+            <a href="#">
                 About us
-                </a>
-            </section>
-        </div>
-        <div class="authorization">
-            <section>
-                <a href="#">
+            </a>
+        </section>
+    </div>
+    <div class="authorization">
+        <section>
+            <a href="#">
                 log in
-                </a>
-            </section>
-            <section>
-                <a href="#">
+            </a>
+        </section>
+        <section>
+            <a href="#">
                 sign up
-                </a>
-            </section>
-            <section>
-                <a href="#">
+            </a>
+        </section>
+        <section>
+            <a href="#">
                 log out
-                </a>
-            </section>
-        </div>
+            </a>
+        </section>
+    </div>
 </header>
 <main>
-        <div class="categories">
-            <a href="">
-                Goods
-            </a>
-            <hr/>
-            <ul>
-                <li>
-                    <a href="#">
+    <div class="categories">
+        <a href="">
+            Goods
+        </a>
+        <hr/>
+        <ul>
+            <li>
+                <a href="#">
                     Pizzas
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
                     Sushi
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
                     Rolls
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
+                </a>
+            </li>
+            <li>
+                <a href="#">
                     Hamburgers
-                    </a>
-                </li>
-            </ul>
-        </div>
+                </a>
+            </li>
+        </ul>
+    </div>
 </main>
 <footer>
+    <style>
+        .test-button {
+            --horizontal-padding: 8px;
+            --vertical-padding: 4px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            font-size: 25px;
+            color: #49248d;
+            padding: var(--vertical-padding) var(--horizontal-padding) var(--vertical-padding) var(--horizontal-padding);
+        }
+
+        .test-header {
+            background-color: rgb(73, 36, 141);
+            align-items: center;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .test-flex {
+            display: flex;
+        }
+
+        .test-header .test-button {
+            margin: 5px;
+        }
+    </style>
+    <div class="test-header header-margin">
+
+        <div class="test-flex" style="justify-content: left">
+            <div class="test-button">main</div>
+            <div class="test-button">products</div>
+            <div class="test-button">orders</div>
+            <div class="test-button">cart</div>
+            <div class="test-button">about us</div>
+        </div>
+
+        <div class="test-flex">
+            <div class="test-button">log in</div>
+            <div class="test-button">sign up</div>
+            <div class="test-button">log out</div>
+        </div>
+
+    </div>
+
 </footer>
 </body>
 </html>
